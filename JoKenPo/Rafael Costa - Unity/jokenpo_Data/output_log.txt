@@ -1,0 +1,390 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0x102)
+    Vendor:   Intel
+    VRAM:     880 MB
+    Driver:   8.15.10.2312
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\ricardo.laurindo\Desktop\jokenpo_rafael~\jokenpo_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\ricardo.laurindo\Desktop\jokenpo_rafael~\jokenpo_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\ricardo.laurindo\Desktop\jokenpo_rafael~\jokenpo_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\ricardo.laurindo\Desktop\jokenpo_rafael~\jokenpo_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\ricardo.laurindo\Desktop\jokenpo_rafael~\jokenpo_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\ricardo.laurindo\Desktop\jokenpo_rafael~\jokenpo_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\ricardo.laurindo\Desktop\jokenpo_rafael~\jokenpo_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\ricardo.laurindo\Desktop\jokenpo_rafael~\jokenpo_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\ricardo.laurindo\Desktop\jokenpo_rafael~\jokenpo_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\ricardo.laurindo\Desktop\jokenpo_rafael~\jokenpo_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.028 seconds
+Platform assembly: C:\Users\ricardo.laurindo\Desktop\jokenpo_rafael~\jokenpo_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\ricardo.laurindo\Desktop\jokenpo_rafael~\jokenpo_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.779473 ms
+vitorias0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+vitorias0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+opcao Pedra
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Computador Tesoura
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+resultado Vencedor
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.218906 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.300937 ms (FindLiveObjects: 0.021188 ms CreateObjectMapping: 0.024498 ms MarkObjects: 0.251278 ms  DeleteObjects: 0.003310 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.669413 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 272.
+Total: 0.316166 ms (FindLiveObjects: 0.019863 ms CreateObjectMapping: 0.023174 ms MarkObjects: 0.263858 ms  DeleteObjects: 0.008607 ms)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+opcao Tesoura
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Computador Tesoura
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+resultado Empate
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.382379 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.238697 ms (FindLiveObjects: 0.020857 ms CreateObjectMapping: 0.023174 ms MarkObjects: 0.191024 ms  DeleteObjects: 0.003310 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.420783 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 272.
+Total: 0.242008 ms (FindLiveObjects: 0.031120 ms CreateObjectMapping: 0.020857 ms MarkObjects: 0.180761 ms  DeleteObjects: 0.008607 ms)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+opcao Tesoura
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Computador Tesoura
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+resultado Empate
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.408534 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.268493 ms (FindLiveObjects: 0.018208 ms CreateObjectMapping: 0.022843 ms MarkObjects: 0.222475 ms  DeleteObjects: 0.004303 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.400919 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 272.
+Total: 0.231745 ms (FindLiveObjects: 0.019863 ms CreateObjectMapping: 0.022512 ms MarkObjects: 0.180761 ms  DeleteObjects: 0.007945 ms)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+opcao Tesoura
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Computador Tesoura
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+resultado Empate
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.387676 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.237704 ms (FindLiveObjects: 0.018870 ms CreateObjectMapping: 0.019532 ms MarkObjects: 0.194997 ms  DeleteObjects: 0.003972 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.394629 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 272.
+Total: 0.248629 ms (FindLiveObjects: 0.023174 ms CreateObjectMapping: 0.033106 ms MarkObjects: 0.184072 ms  DeleteObjects: 0.007945 ms)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+opcao Tesoura
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Computador Pedra
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+resultado Perdedor
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.438329 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.241677 ms (FindLiveObjects: 0.018208 ms CreateObjectMapping: 0.019863 ms MarkObjects: 0.198969 ms  DeleteObjects: 0.003972 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.409196 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 272.
+Total: 0.212543 ms (FindLiveObjects: 0.018870 ms CreateObjectMapping: 0.027147 ms MarkObjects: 0.158249 ms  DeleteObjects: 0.007614 ms)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+opcao Tesoura
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Computador Pedra
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+resultado Perdedor
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.519771 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.276770 ms (FindLiveObjects: 0.030126 ms CreateObjectMapping: 0.021188 ms MarkObjects: 0.220820 ms  DeleteObjects: 0.003972 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.492624 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 272.
+Total: 0.255582 ms (FindLiveObjects: 0.020194 ms CreateObjectMapping: 0.022843 ms MarkObjects: 0.203604 ms  DeleteObjects: 0.008607 ms)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+opcao Tesoura
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Computador Tesoura
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+resultado Empate
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.510502 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.281736 ms (FindLiveObjects: 0.020857 ms CreateObjectMapping: 0.023505 ms MarkObjects: 0.232738 ms  DeleteObjects: 0.004303 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.403568 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 272.
+Total: 0.229096 ms (FindLiveObjects: 0.021188 ms CreateObjectMapping: 0.022843 ms MarkObjects: 0.177781 ms  DeleteObjects: 0.006952 ms)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+opcao Tesoura
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Computador Tesoura
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+resultado Empate
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.378738 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.253926 ms (FindLiveObjects: 0.018539 ms CreateObjectMapping: 0.032444 ms MarkObjects: 0.197976 ms  DeleteObjects: 0.004303 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.386683 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 272.
+Total: 0.266838 ms (FindLiveObjects: 0.019532 ms CreateObjectMapping: 0.022512 ms MarkObjects: 0.214861 ms  DeleteObjects: 0.008938 ms)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+opcao Tesoura
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Computador Pedra
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+resultado Perdedor
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.465146 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.288357 ms (FindLiveObjects: 0.020194 ms CreateObjectMapping: 0.022843 ms MarkObjects: 0.240684 ms  DeleteObjects: 0.004303 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.453889 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 272.
+Total: 0.275114 ms (FindLiveObjects: 0.023174 ms CreateObjectMapping: 0.034761 ms MarkObjects: 0.207246 ms  DeleteObjects: 0.009600 ms)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+opcao Papel
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Computador Tesoura
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+resultado Perdedor
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.429722 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.291999 ms (FindLiveObjects: 0.021188 ms CreateObjectMapping: 0.023174 ms MarkObjects: 0.243001 ms  DeleteObjects: 0.004303 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.413831 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 272.
+Total: 0.272797 ms (FindLiveObjects: 0.018539 ms CreateObjectMapping: 0.023174 ms MarkObjects: 0.221151 ms  DeleteObjects: 0.009600 ms)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+vitorias1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+opcao Papel
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Computador Pedra
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+resultado Vencedor
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.420121 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.291337 ms (FindLiveObjects: 0.019863 ms CreateObjectMapping: 0.023174 ms MarkObjects: 0.243001 ms  DeleteObjects: 0.004303 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.446275 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 272.
+Total: 0.257237 ms (FindLiveObjects: 0.019532 ms CreateObjectMapping: 0.020526 ms MarkObjects: 0.207577 ms  DeleteObjects: 0.008938 ms)
+
+vitorias2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+vitorias2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: b14 -> priority: 1 
