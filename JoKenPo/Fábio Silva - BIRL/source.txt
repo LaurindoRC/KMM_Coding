@@ -1,0 +1,95 @@
+OH O HOME AI PO (MONSTRO JOKENPO(MONSTRO A))
+      srand(time(NULL));
+      MONSTRO R=(rand()%3)+1;
+      //0 - empate
+      //1 - pessoa ganha
+      //2 - pc ganha
+     
+        CE QUER VER ESSA PORRA? ("\nVOCÊ MALUCO AI ESCOLHEU ");
+         ELE QUE A GENTE QUER? (A == 1)
+          CE QUER VER ESSA PORRA? ("PAPEL\n");
+        BIRL
+         ELE QUE A GENTE QUER? (A == 2)
+          CE QUER VER ESSA PORRA? ("PEDRA\n");
+        BIRL
+         ELE QUE A GENTE QUER? (A == 3)
+          CE QUER VER ESSA PORRA? ("TESOURA\n");
+        BIRL
+       
+       CE QUER VER ESSA PORRA? ("\nCE QUER VER ESSA PORRA? EU ESCOLHI ");
+        ELE QUE A GENTE QUER? (R == 1)
+          CE QUER VER ESSA PORRA? ("PAPEL\n");
+        BIRL
+         ELE QUE A GENTE QUER? (R == 2)
+          CE QUER VER ESSA PORRA? ("PEDRA\n");
+        BIRL
+         ELE QUE A GENTE QUER? (R == 3)
+          CE QUER VER ESSA PORRA? ("TESOURA\n");
+        BIRL
+       
+    
+       
+      ELE QUE A GENTE QUER? (R == A)
+       BORA CUMPADE 0;
+      BIRL
+     
+
+      ELE QUE A GENTE QUER? ( R==2 && A==1)
+       BORA CUMPADE 1;
+      BIRL
+     
+     ELE QUE A GENTE QUER? ( R==3 && A==1)
+       BORA CUMPADE 2;
+      BIRL
+     
+     
+     ELE QUE A GENTE QUER? ( R==1 && A==2)
+       BORA CUMPADE 2;
+      BIRL
+     
+      ELE QUE A GENTE QUER? ( R==3 && A==2)
+       BORA CUMPADE 1;
+      BIRL
+     
+     
+     ELE QUE A GENTE QUER? ( R==1 && A==3)
+       BORA CUMPADE 1;
+      BIRL
+     
+      ELE QUE A GENTE QUER? ( R==2 && A==3)
+       BORA CUMPADE 2;
+      BIRL
+ 
+BIRL
+
+HORA DO SHOW
+      MONSTRO A, RES;
+     
+      CE QUER VER ESSA PORRA? ("ESCOLHE AI CUMPADE!\n1-PAPEL\n2-PEDRA\n3-TESOURA\n");
+      QUE QUE CE QUER MONSTRAO? ("%d", &A);
+      CE QUER VER ESSA PORRA?("------------------------------");
+       
+       ELE QUE A GENTE QUER? (A < 1 || A>3)
+         CE QUER VER ESSA PORRA? ("\nPORRA CUMPADE, ESCOLHE UM AI!\n");
+         BORA CUMPADE 0;
+       BIRL
+       
+      RES=AJUDA O MALUCO TA DOENTE JOKENPO(A);
+    
+      
+     ELE QUE A GENTE QUER? (RES == 0)
+        CE QUER VER ESSA PORRA? ("\nPORRA CUMPADE, DEU EMPATE PORRA, É VERAO O ANO TODO!\n");
+     BIRL
+    
+     ELE QUE A GENTE QUER? (RES == 1)
+        CE QUER VER ESSA PORRA? ("\nDEU NÃO CUMPADE, PERDI, AJUDA O MALUCO AI QUE TA DOENTE!\n");
+     BIRL
+    
+     ELE QUE A GENTE QUER? (RES == 2)
+       CE QUER VER ESSA PORRA? ("\nQUE NÃO VAI DAR O QUE PORRA!, SAI DE CASA COMI PRA CARALHO, GANHEI PORRA, É 37 ANOS CARALHO!\n");
+      BIRL
+   
+    
+     
+      BORA CUMPADE 0;
+BIRL

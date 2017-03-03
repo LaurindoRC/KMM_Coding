@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>Jokenpô</title>
+       
+        <style>
+            .botao {
+                border: 1px solid #999;
+                padding: 5px;
+                border-radius: 3px;
+                box-shadow: 2px 2px 2px #555;
+            }
+            
+            .corpo{
+                font: 14px verdana;
+                padding: 10px;
+                display: none;
+                width: 500px;
+                height: 500px;
+                
+            }
+            
+            .tabela{
+                border: 1px solid #555;
+                border-radius: 5px;
+                background: #fff;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                box-shadow: 2px 2px 2px #555;    
+            }
+            
+            .placar{
+                border: 0px;
+                padding: 2px;   
+            }
+            
+            .resultado{
+                display: none;
+                border: 1px solid #000;
+                border-radius: 5px;
+                padding: 20px;
+                width: 180px;
+                height: 30px;
+                position: absolute;
+                text-align: center;
+                background: beige;
+                box-shadow: 2px 2px 2px #777;
+                top: 370px;
+            }
+            
+            .tabuleiro{
+                border: 0px solid #555;
+                background: #E1e1e1;
+            }
+            
+            img { display: none; }
+        </style>
+            
+   <script type="text/javascript" src="jquery/jquery-3.1.1.js"></script>
+        
+   <script>        
+   
+          // jQuery
+     $(document).ready(function(){
+   
+        var rodada = 0;
+        var placar_jogador = 0;
+        var placar_maquina = 0;
+        var jogada_pedra_jogador=0;
+        var jogada_pedra_maquina=0;
+        var width_tela = parseInt((document.body.clientWidth/2)-100); 
+         
+        // lugar horizontal resultado
+        $("div[id=resultado]").css("left",width_tela);
+   
+        // inicio bt_jogar
+          $("#bt_jogar").click(function(){
+             
+                $("div[id=corpo]").show();
+              
+          });
+          
+          $("#bt_sobre").click(function(){              
+              
+              str = "Desafio KMM \n \n Referência: https://pt.wikipedia.org/wiki/Pedra,_papel_e_tesoura \n\n Desenvolvido por Tiago Barbisan.\n\n";
+              
+              alert(str);
+              
+          });
+          
+           $("#bt_regras").click(function(){              
+              
+              str = "Regras\n\n Pedra ganha da tesoura (amassando-a ou quebrando-a). \n Tesoura ganha do papel (cortando-o). \n Papel ganha da pedra (embrulhando-a).\n\n";
+              
+              alert(str);
+              
+          });
+          
+          // bt_fechar_corpo
+          $("#bt_fechar_corpo").click(function(){
+              
+                  $("div[id=corpo]").hide();                 
+              
+          });
+
+          /*
+           * PEDRA   = 1
+           * PAPEL   = 2
+           * TESOURA = 3
+           */
+
+           $.fn.check_jogo=function(jogador, maquina){
+                 // jogador result = 0 
+                 // maquina result = 1
+                 // empate  result = 3 
+                 
+                  result   = 0 ;    
+                  mensagem = "";
+                 
+                //   exibir div com o resultado depois de 1 segundo
+                //   validar pedra 2 vezes
+                //   limpar tabuleiro 7 segundos
+                
+                if(jogador == 1 && maquina == 3 ){ result = 0 ; }
+                if(jogador == 3 && maquina == 2 ){ result = 0 ; }
+                if(jogador == 2 && maquina == 1 ){ result = 0 ; }
+                
+                if(maquina == 1 && jogador == 3 ){ result = 1 ; }
+                if(maquina == 3 && jogador == 2 ){ result = 1 ; }
+                if(maquina == 2 && jogador == 1 ){ result = 1 ; }
+                
+                // jogador pedra 2 vezes seguida
+                if( jogador == 1 && jogada_pedra_jogador >= 2){
+                   $("div[id=resultado]").show(); 
+                   $("div[id=resultado]").text("Jogador escolheu pedra novamente.");
+                  return;
+                }
+                
+                // computador pedra 2 vezes seguida
+                if( maquina == 1 && jogada_pedra_maquina >= 2){
+                   $("div[id=resultado]").show(); 
+                   $("div[id=resultado]").text("Computador escolheu pedra novamente.");
+                  return;
+                }
+                
+                // Empate
+                if( jogador == maquina ){ result = 3 ; }
+                                 
+                if(result == 0){ placar_jogador = placar_jogador+1; } 
+                if(result == 1){ placar_maquina = placar_maquina+1; }
+                                                                              
+                // mensagem ao usuario
+                if(result == 0){ mensagem = "Você ganhou!!"; }
+                if(result == 1){ mensagem = "O computador ganhou!"; }
+                if(result == 3){ mensagem = "Empate!!! Tente novamente."; 
+                   $("div[id=resultado]").show(); 
+                   $("div[id=resultado]").text(mensagem);
+                  return; 
+                }
+                
+                $("div[id=resultado]").show();
+                $("div[id=resultado]").text(mensagem);
+                
+                // atualiza o placar
+                $("input[id=placar_jogador]").val(placar_jogador);
+                $("input[id=placar_maquina]").val(placar_maquina);
+                 
+                rodada = rodada+1;
+                $("input[id=v_rodada]").val(rodada);
+                
+    }; // fim funcao 
+          
+
+          $.fn.iniciar_jogo=function(jogada){
+                 
+               // jogada randomica da maquina 
+                  maq = Math.floor((Math.random() * 3) + 1);                                 
+                   
+                   switch(maq){
+                       case 1:  { $("img[id=img_maquina_p]").show(); 
+                                  jogada_pedra_maquina = jogada_pedra_maquina+1; 
+                                  break;
+                                }            
+                       case 2:  { $("img[id=img_maquina_m]").show();  
+                                  jogada_pedra_maquina = 0;
+                                  break; 
+                                }                
+                       case 3:  { $("img[id=img_maquina_t]").show(); 
+                                  jogada_pedra_maquina = 0;
+                                  break; 
+                                }                                  
+                   }             
+                  
+                  $(document).check_jogo(jogada, maq);                  
+                  
+                  $(document).limpar_tabuleiro();
+                  
+           }; // fim funcao 
+
+        $.fn.limpar_tabuleiro=function(){ 
+              var tempo = 6000; // 5 segundos
+           $("img[id=img_jogador_m]").delay(tempo).fadeOut();             
+           $("img[id=img_jogador_t]").delay(tempo).fadeOut();             
+           $("img[id=img_jogador_p]").delay(tempo).fadeOut();                    
+           
+           $("img[id=img_maquina_m]").delay(tempo).fadeOut();             
+           $("img[id=img_maquina_t]").delay(tempo).fadeOut();             
+           $("img[id=img_maquina_p]").delay(tempo).fadeOut(); 
+           
+           $("div[id=resultado]").delay(tempo).fadeOut();
+        };
+        
+        $.fn.limpar_tabuleiro_maquina=function(){            
+           $("img[id=img_maquina_m]").hide();             
+           $("img[id=img_maquina_t]").hide();             
+           $("img[id=img_maquina_p]").hide();                                    
+        };        
+
+       $.fn.limpar_tabuleiro_jogador=function(){            
+           $("img[id=img_jogador_m]").hide();             
+           $("img[id=img_jogador_t]").hide();             
+           $("img[id=img_jogador_p]").hide();                                    
+        };
+
+        $("#bt_p").click(function(){  // pedra                                 
+           
+           jogada_pedra_jogador = jogada_pedra_jogador+1;
+           
+           $(document).limpar_tabuleiro_jogador();
+           $(document).limpar_tabuleiro_maquina();
+            
+           $("img[id=img_jogador_p]").show();           
+           $(document).iniciar_jogo(1);     
+              
+        });
+          
+        $("#bt_m").click(function(){   // papel           
+            
+             jogada_pedra_jogador = 0;
+            
+            $(document).limpar_tabuleiro_jogador();
+            $(document).limpar_tabuleiro_maquina();
+              $("img[id=img_jogador_m]").show();                        
+              $(document).iniciar_jogo(2);              
+        });
+           
+        $("#bt_t").click(function(){  // tesoura                    
+            
+            jogada_pedra_jogador = 0;
+            
+           $(document).limpar_tabuleiro_jogador();
+           $(document).limpar_tabuleiro_maquina();
+              $("img[id=img_jogador_t]").show();                        
+              $(document).iniciar_jogo(3);              
+        });
+
+   
+      }); // fim ready   
+        
+   </script>
+   </head>   
+    
+    <body>       
+    <center>
+        <div id="inicial">
+            Jokenpô           
+            <p>                
+                <input type="button" value="Jogar Single Player" class="botao" id="bt_jogar">
+                <input type="button" value="Regras" class="botao" id="bt_regras">
+                <input type="button" value="Sobre" class="botao" id="bt_sobre">      
+                
+        </div>
+        
+        <p>
+        
+        <div id="corpo" class="corpo">
+            
+            Jokenpô - Single Player
+            <p>
+                
+            <table width="100%" class="tabela">
+                <tr>
+                   <td align="center">  Jogador <input type="text" value="0" size="3" class="placar" id="placar_jogador"></td>
+                    <td>  PLACAR    </td>                                        
+                    <td align="center">  Computador <input type="text" value="0" size="3" class="placar" id="placar_maquina">  </td>                    
+                </tr> 
+                
+                <tr>
+                    <td valign="top" colspan="3" height="300px" style="padding: 5px">
+                        <font color="darkgreen">Rodada: </font><input type="text" size="3" id="v_rodada" class="placar">                  
+                        <p>           
+                        <div id="resultado" class="resultado"></div>
+                        <table width="100%" class="tabuleiro">
+                            <tr>
+                                <td valign="top" width="140px"  align="center" height="250px"> <b>Jogador</b> <p>
+                                    <div id="img_jogador">
+                                        <img src="img/pedra.png"   id="img_jogador_p">
+                                        <img src="img/papel.png"   id="img_jogador_m">
+                                        <img src="img/tesoura.png" id="img_jogador_t">
+                                    </div>   </td>
+                                <td valign="top" width="10px" align="center" height="250px" style="border-right:1px solid #000">   </td>
+                                <td valign="top" width="140px" align="center">  <b>Computador</b> <p>
+                                    <div id="img_maquina">
+                                        <img src="img/pedra.png"   id="img_maquina_p">
+                                        <img src="img/papel.png"   id="img_maquina_m">
+                                        <img src="img/tesoura.png" id="img_maquina_t">
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                            
+                    </td>
+                </tr>
+                
+                
+                <tr>
+                    <td colspan="2" align="center">Clique para jogar 
+                        <input type="button" value="Pedra" class="botao" id="bt_p">
+                        <input type="button" value="Papel" class="botao" id="bt_m">
+                        <input type="button" value="Tesoura" class="botao" id="bt_t">
+                    </td>
+                    <td align="right"><input type="button" value="Fechar" class="botao" id="bt_fechar_corpo">   </td>
+                </tr>              
+                
+            </table>             
+              
+              <p>
+        </div>
+       
+    </center>
+    </body>
