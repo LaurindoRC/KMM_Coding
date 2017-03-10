@@ -1,0 +1,1 @@
+Executar o .jar, enviar um email para cryptokmm@gmail.com com o assunto "rules"

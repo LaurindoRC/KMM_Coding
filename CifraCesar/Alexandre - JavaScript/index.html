@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <title>Cifra de César - KMM Coding #2</title>
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <section id="main">
+
+            <div>
+                <input id="posicoes" type="number" value="3" />
+                <label>
+                    <input id="criptografa" type="radio" class="tipo" name="tipo" value="c" checked />
+                    Criptografa
+                </label>
+                <label>
+                    <input id="descriptografa" type="radio" class="tipo" name="tipo" value="d" />
+                    Descriptografa
+                </label>
+            </div>
+
+            <textarea id="input"></textarea>
+            <textarea id="output" readonly></textarea>
+
+        </section>
+
+        <script type="text/javascript" src="js/cifra_de_cesar.js"></script>
+    </body>
+</html>
